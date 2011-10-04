@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.gmoran.iapplockersettings</string>
+			<key>key</key>
+			<string>Enabled</string>
+			<key>label</key>
+			<string>Enabled</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Locked Applications</string>
+			<key>footerText</key>
+			<string>Select Which Applications to lock</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.gmoran.iapplockersettings</string>
+			<key>key</key>
+			<string>Locked</string>
+			<key>label</key>
+			<string>Lock Certain Apps</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>label</key>
+			<string>Locked Applications</string>
+			<key>isController</key>
+			<true/>
+			<key>bundle</key>
+			<string>AppList</string>
+			<key>ALNavigationTitle</key>
+			<string>Locked Apps</string>
+			<key>ALChangeNotification</key>
+			<string>com.gmoran.iapplockersettings.unused</string>
+			<key>ALAllowsSelection</key>
+			<true/>
+			<key>ALSettingsPath</key>
+			<string>/var/mobile/Library/Preferences/com.gmoran.iapplockersettings.plist</string>
+			<key>ALSettingsKeyPrefix</key>
+			<string>LockedApps-</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSecureEditTextCell</string>
+			<key>default</key>
+			<string>password</string>
+			<key>defaults</key>
+			<string>com.gmoran.iapplockersettings</string>
+			<key>key</key>
+			<string>Password</string>
+			<key>label</key>
+			<string>Global Password</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>iAppLockerSettings</string>
+</dict>
+</plist>

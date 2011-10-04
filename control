@@ -1,0 +1,9 @@
+Package: com.gmoran.iapplocker
+Name: iAppLocker
+Depends: mobilesubstrate
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Lock your applications with iAppLocker!
+Maintainer: Fr0st
+Author: Fr0st
+Section: Tweaks
