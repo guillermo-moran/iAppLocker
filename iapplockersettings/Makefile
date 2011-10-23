@@ -1,4 +1,3 @@
-SDKVERSION=4.0
 include theos/makefiles/common.mk
 
 BUNDLE_NAME = iAppLockerSettings

@@ -1,4 +1,4 @@
-THEOS_DEVICE_IP = 192.168.1.102
+THEOS_DEVICE_IP = 192.168.1.105
 include theos/makefiles/common.mk
 
 TWEAK_NAME = iAppLocker
