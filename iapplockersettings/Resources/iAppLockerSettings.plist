@@ -15,6 +15,8 @@
 			<string>Enabled</string>
 			<key>label</key>
 			<string>Enabled</string>
+			<key>PostNotification</key>
+			<string>com.gmoran.iapplockersettings.updated</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -23,6 +25,8 @@
 			<string>Locked Applications</string>
 			<key>footerText</key>
 			<string>Select Which Applications to lock</string>
+			<key>PostNotification</key>
+			<string>com.gmoran.iapplockersettings.updated</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -35,6 +39,8 @@
 			<string>Locked</string>
 			<key>label</key>
 			<string>Lock Certain Apps</string>
+			<key>PostNotification</key>
+			<string>com.gmoran.iapplockersettings.updated</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -48,7 +54,7 @@
 			<key>ALNavigationTitle</key>
 			<string>Locked Apps</string>
 			<key>ALChangeNotification</key>
-			<string>com.gmoran.iapplockersettings.unused</string>
+			<string>com.gmoran.iapplockersettings.updated</string>
 			<key>ALAllowsSelection</key>
 			<true/>
 			<key>ALSettingsPath</key>
@@ -67,6 +73,8 @@
 			<string>Password</string>
 			<key>label</key>
 			<string>Global Password</string>
+			<key>PostNotification</key>
+			<string>com.gmoran.iapplockersettings.updated</string>
 		</dict>
 	</array>
 	<key>title</key>
